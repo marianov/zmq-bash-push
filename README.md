@@ -10,6 +10,9 @@ Usage
 
     echo hello world! |./zmq-push.sh localhost 8080
 
+
+    cat README.md |./zmq-push.sh localhost 8080
+
 It sends each line read from stdin to a PULL socket listening on port 8080
 
 Example of such a  listening socket (in Python):
