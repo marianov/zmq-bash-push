@@ -1,7 +1,9 @@
 zmq-bash-push
 =============
 
-Simple script to send ZeroMQ messages on the Linux command line
+Very simple script to send ZeroMQ messages on the Linux command line
+
+Based on the example by Daniel Lundin http://zeromq.org/bindings:bash, just rearranged to read stdin.
 
 Usage
 ========
