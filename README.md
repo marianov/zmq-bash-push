@@ -10,6 +10,7 @@ Usage
 
     echo hello world! |./zmq-push.sh localhost 8080
 
+Or send a file (one message per line). Be carefull not to send lines longer than 255 bytes.
 
     cat README.md |./zmq-push.sh localhost 8080
 
